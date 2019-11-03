@@ -1,0 +1,48 @@
+top
+----cs
+--------cs general
+            └-->['378.txt']
+--------ai
+            └-->['339.txt', '350.txt', '362.txt', '385.txt', '400.txt', '401.txt', '410.txt', '416.txt', '417.txt', '418.txt', '420.txt', '422.txt', '429.txt', '433.txt', '443.txt', '445.txt', '446.txt', '450.txt', '457.txt', '461.txt', '463.txt', '472.txt', '473.txt']
+--------teaching
+            └-->['302.txt', '366.txt', '367.txt', '368.txt', '369.txt', '370.txt', '371.txt', '380.txt', '398.txt', '399.txt', '411.txt', '412.txt', '419.txt', '452.txt', '456.txt', '466.txt', '475.txt']
+--------nlp
+            └-->['308.txt', '387.txt', '397.txt', '423.txt', '424.txt', '425.txt', '435.txt', '458.txt', '476.txt', '477.txt']
+--------software engineering
+            └-->['328.txt', '374.txt', '377.txt', '406.txt', '409.txt', '421.txt', '426.txt', '436.txt', '437.txt', '440.txt', '441.txt']
+--------computer systems
+            └-->['331.txt', '390.txt', '393.txt', '395.txt', '396.txt', '402.txt', '403.txt', '404.txt', '405.txt', '408.txt', '414.txt', '415.txt', '428.txt', '431.txt', '434.txt', '438.txt', '444.txt', '447.txt', '451.txt', '454.txt', '469.txt', '482.txt']
+--------product design
+            └-->[]
+--------graphics
+            └-->['375.txt', '383.txt']
+--------maths
+            └-->['389.txt', '394.txt', '430.txt', '432.txt', '442.txt', '453.txt', '460.txt', '462.txt', '464.txt', '467.txt', '468.txt', '470.txt', '478.txt', '479.txt', '483.txt']
+--------internet
+            └-->['314.txt', '448.txt', '449.txt', '481.txt']
+--------programming languages
+            └-->['306.txt', '392.txt']
+--------robotics
+------------robotics general
+                └-->[]
+------------robotics maths
+                └-->['301.txt', '311.txt', '313.txt', '315.txt', '336.txt', '342.txt', '343.txt', '344.txt', '348.txt', '349.txt', '360.txt', '361.txt']
+------------motion/sensors/motion
+                └-->['307.txt', '309.txt', '312.txt', '317.txt', '318.txt', '319.txt', '320.txt', '321.txt', '322.txt', '325.txt', '326.txt', '332.txt', '333.txt', '334.txt', '335.txt', '341.txt', '345.txt', '353.txt', '357.txt', '363.txt', '381.txt', '384.txt', '391.txt']
+------------robotics product design
+                └-->['329.txt', '330.txt', '337.txt', '373.txt', '382.txt', '407.txt', '480.txt']
+------------vr
+                └-->['413.txt', '455.txt']
+------------robotics ai
+----------------robotics ai general
+                    └-->['327.txt', '359.txt']
+----------------robotics vision
+                    └-->['303.txt', '304.txt', '310.txt', '316.txt', '323.txt', '324.txt', '338.txt', '340.txt', '346.txt', '347.txt', '355.txt', '358.txt', '364.txt', '365.txt', '372.txt', '376.txt', '427.txt', '439.txt', '459.txt', '474.txt']
+------------exploration
+                └-->['305.txt', '351.txt', '352.txt', '379.txt', '388.txt']
+----science
+        └-->['471.txt']
+----engineering
+        └-->['354.txt', '356.txt', '386.txt', '465.txt', '484.txt']
+----uncategorized
+        └-->['485.txt']
