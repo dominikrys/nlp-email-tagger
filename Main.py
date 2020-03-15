@@ -15,13 +15,13 @@ import re
 
 def main():
     # Set up corpus reader for untagged data
-    seminars_untagged_path = 'C:/Users/Gigabyte/AppData/Roaming/nltk_data/corpora/seminars_testdata/test_untagged'
+    seminars_untagged_path = 'seminars_testdata/test_untagged'
     seminars_untagged_files = [f for f in listdir(seminars_untagged_path) if isfile(join(seminars_untagged_path, f))]
     corpus_untagged = nltk.corpus.reader.plaintext.PlaintextCorpusReader(seminars_untagged_path,
                                                                          seminars_untagged_files)
 
     # Set up corpus reader for tagged data
-    seminars_tagged_path = 'C:/Users/Gigabyte/AppData/Roaming/nltk_data/corpora/seminars_testdata/test_tagged'
+    seminars_tagged_path = 'seminars_testdata/test_tagged'
     seminars_tagged_files = [f for f in listdir(seminars_tagged_path) if isfile(join(seminars_tagged_path, f))]
     corpus_tagged = nltk.corpus.reader.plaintext.PlaintextCorpusReader(seminars_tagged_path,
                                                                        seminars_tagged_files)
@@ -41,11 +41,11 @@ def entity_tagging(corpus_tagged, corpus_untagged, seminars_untagged_files):
 
     print("Loading names for speaker recognition...")
 
-    with open('C:/Users/Gigabyte/AppData/Roaming/nltk_data/names.family') as file:
+    with open('nltk_data/names.family') as file:
         last_names = last_names + file.read().splitlines()
-    with open('C:/Users/Gigabyte/AppData/Roaming/nltk_data/names.female') as file:
+    with open('nltk_data/names.female') as file:
         first_names = first_names + file.read().splitlines()
-    with open('C:/Users/Gigabyte/AppData/Roaming/nltk_data/names.male') as file:
+    with open('nltk_data/names.male') as file:
         first_names = first_names + file.read().splitlines()
 
     print("Loaded names for speaker recognition!")
@@ -198,7 +198,7 @@ def save_file_with_tags(stime_tags, etime_tags, location_tags, speaker_tags, sen
                 email_text.replace(tagged_word, '<' + tag_type + '>' + tagged_word + '</' + tag_type + '>')
 
     # Make output directory if it doesn't exist
-    filename = 'C:/[CS Work]/NLP/Assignment/output/' + file
+    filename = '/output/' + file
 
     if not os.path.exists(os.path.dirname(filename)):
         try:

@@ -4,9 +4,7 @@ from nltk.stem import WordNetLemmatizer
 
 class Ontology:
     def __init__(self):
-        # Declare shared topic words - there are better ways of doing this however for a small ontology like this it's
-        # enough, otherwise I'd have to rewrite my ontology and all methods since the shared topic words would be
-        # stored in "top" which are all leaf nodes and therefore can't be referenced from the next node easily
+        # Declare shared topic words - for a small ontology like this this is sufficient
         self.cs_topic_words = ['computer', 'technology', 'speakers', 'programming', 'computing', 'system',
                                'intel', 'multimedia', 'telephony', 'cs']
 
@@ -146,7 +144,7 @@ class Ontology:
         # Load word2vec model
         print("Loading word2vec model...")
         self.word2vec_model = gensim.models.KeyedVectors.load_word2vec_format(
-            'C:/Users/Gigabyte/AppData/Roaming/nltk_data/GoogleNews-vectors-negative300.bin', binary=True)
+            'nltk_data/GoogleNews-vectors-negative300.bin', binary=True)
         print("Loaded!")
 
         # Traversal info for easier retrieval of topic words
